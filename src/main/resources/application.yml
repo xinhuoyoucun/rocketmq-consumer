@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rocketmq-consumer
+
+rocketmq:
+  name-server: localhost:9876
+
+demo:
+  rocketmq:
+    topic: IM-topic
+    myNameServer: 127.0.0.1:9876
+    tag: tagA
+
